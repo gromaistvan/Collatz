@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MrgInfo.Math.Collatz\MrgInfo.Math.Collatz.csproj" />
+    <ProjectReference Include="..\MrgInfo.Math.Collatz\MrgInfo.Collatz.csproj" />
   </ItemGroup>
 
   <ItemGroup>

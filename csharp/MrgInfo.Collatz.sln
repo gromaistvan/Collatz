@@ -1,19 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28729.10
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MrgInfo.Math.Collatz", "MrgInfo.Math.Collatz\MrgInfo.Math.Collatz.csproj", "{9AC424B5-249C-4AB8-8E9F-E947D486925E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MrgInfo.Collatz", "MrgInfo.Collatz\MrgInfo.Collatz.csproj", "{9AC424B5-249C-4AB8-8E9F-E947D486925E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MrgInfo.Math.Tests", "MrgInfo.Math.Tests\MrgInfo.Math.Tests.csproj", "{18E2FEAC-70A4-478D-82D2-8DE54A59104C}"
-EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "collatz", "collatz\collatz.njsproj", "{C87ACD00-E97A-4811-8715-4FA9C8AECFF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MrgInfo.Collatz.Tests", "MrgInfo.Collatz.Tests\MrgInfo.Collatz.Tests.csproj", "{18E2FEAC-70A4-478D-82D2-8DE54A59104C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{79CF7700-2D08-4696-83B8-F4B5620B3F6D}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
-		.editorconfig2 = .editorconfig2
-		.eslintrc.json = .eslintrc.json
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
 		NuGet.config = NuGet.config
@@ -34,8 +30,6 @@ Global
 		{18E2FEAC-70A4-478D-82D2-8DE54A59104C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18E2FEAC-70A4-478D-82D2-8DE54A59104C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18E2FEAC-70A4-478D-82D2-8DE54A59104C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C87ACD00-E97A-4811-8715-4FA9C8AECFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C87ACD00-E97A-4811-8715-4FA9C8AECFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
