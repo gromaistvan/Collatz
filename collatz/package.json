@@ -1,0 +1,20 @@
+{
+    "name": "collatz",
+    "version": "1.0.0",
+    "description": "Collatz conjecture",
+    "main": "collatz.js",
+    "scripts": {
+        "test": "node_modules/.bin/mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://wavezone.visualstudio.com/DefaultCollection/MrgInfo/_git/Collatz"
+    },
+    "author": "Groma István PhD",
+    "license": "ISC",
+    "devDependencies": {
+        "mocha": "^6.0.2",
+        "should": ">=0.0.1"
+    },
+    "dependencies": {}
+}

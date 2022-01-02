@@ -1,0 +1,30 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "dotnet",
+    "isShellCommand": true,
+    "args": [],
+    "showOutput": "always",
+    "echoCommand": true,
+    "tasks": [{
+            "taskName": "build",
+            "args": ["MrgInfo.Math.sln"],
+            "isBuildCommand": true,
+            "showOutput": "always",
+            "problemMatcher": "$msCompile"
+        }, {
+            "taskName": "test",
+            "args": [],
+            "isTestCommand": true,
+            "showOutput": "always",
+            "problemMatcher": "$msCompile"
+        }, {
+            "taskName": "publish",
+            "args": ["--runtime", "ubuntu.16.04-arm"],
+            "isBuildCommand": true,
+            "showOutput": "always",
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

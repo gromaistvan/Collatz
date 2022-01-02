@@ -1,0 +1,26 @@
+{
+  "profiles": {
+    "Full": {
+      "commandName": "Project",
+      "commandLineArgs": "/full",
+      "environmentVariables": {
+        "COMPlus_gcAllowVeryLargeObjects": "1"
+      }
+    },
+    "Simple": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "WEBROOT_PATH": "..\\..\\..\\..\\collatz",
+        "COMPlus_gcAllowVeryLargeObjects": "1"
+      }
+    },
+    "Parallel": {
+      "commandName": "Project",
+      "commandLineArgs": "/parallel",
+      "environmentVariables": {
+        "WEBROOT_PATH": "..\\..\\..\\..\\collatz",
+        "COMPlus_gcAllowVeryLargeObjects": "1"
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+﻿{
+  "diagnosticMessages": true,
+  "longRunningTestSeconds": 2,
+  "methodDisplay": "method",
+  "preEnumerateTheories": false
+}

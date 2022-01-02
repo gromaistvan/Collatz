@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+            "name": ".NET Core",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceRoot}/MrgInfo.Math.Collatz/bin/Debug/netcoreapp2.0/MrgInfo.Math.Collatz.dll",
+            "args": ["/parallel"],
+            "env": {
+                "WEBROOT_PATH": "${workspaceRoot}/collatz"
+            },
+            "stopAtEntry": false,
+            "console": "externalTerminal"
+        },
+        {
+            "name": "Node.js",
+            "type": "node",
+            "request": "launch",
+            "protocol": "inspector",
+            "program": "${workspaceRoot}/collatz/collatz.js",
+            "cwd": "${workspaceRoot}/collatz",
+            "env": {
+                "NODE_ENV": "development",
+                "PORT": "4214"
+            }
+        },
+        {
+            "name": "Chrome",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4214/256",
+            "webRoot": "${workspaceRoot}"
+        }
+    ],
+    "compounds": [{
+        "name": "Run all...",
+        "configurations": [".NET Core", "Node.js", "Chrome"]
+    }]
+}
